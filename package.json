@@ -1,7 +1,7 @@
 {
-  "name": "ahj-testing-new",
+  "name": "ahj-forms",
   "version": "1.0.0",
-  "description": "[![Build status](https://ci.appveyor.com/api/projects/status/b597xt6tukfhv637?svg=true)](https://ci.appveyor.com/project/nickupx/ahj-testing-new)",
+  "description": "[![Build status](https://ci.appveyor.com/api/projects/status/xh88vfwcj1q53yao?svg=true)](https://ci.appveyor.com/project/nickupx/ahj-forms)",
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack --mode development",
@@ -56,12 +56,9 @@
     "normalize.css": "^8.0.1"
   },
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nickupx/ahj-testing-new.git"
-  },
+  "repository": "git+https://github.com/nickupx/ahj-forms.git",
   "bugs": {
-    "url": "https://github.com/nickupx/ahj-testing-new/issues"
+    "url": "https://github.com/nickupx/ahj-forms/issues"
   },
-  "homepage": "https://github.com/nickupx/ahj-testing-new#readme"
+  "homepage": "https://github.com/nickupx/ahj-forms#readme"
 }
