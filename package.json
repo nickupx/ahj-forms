@@ -5,14 +5,14 @@
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack --mode development",
-    "build": "webpack --mode production",
+    "build": "cross-env NODE_ENV=production webpack --mode production",
     "watch": "cross-env NODE_ENV=development webpack --mode development --watch",
     "start": "cross-env NODE_ENV=development webpack-dev-server --mode development --open",
     "stats": "webpack --json > stats.json && webpack-bundle-analyzer stats.json",
     "lint": "eslint .",
     "test": "jest",
     "coverage": "jest --coverage",
-    "e2e":"jest --testPathPattern=./e2e/ --runInBand",
+    "e2e": "jest --testPathPattern=./e2e/ --runInBand",
     "jsdom": "jest --testPathPattern=./jsdom/"
   },
   "browserslist": "> 0.25%, not dead",
