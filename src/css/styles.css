@@ -8,49 +8,24 @@ body {
   padding: 2rem;
 }
 
-.form-control {
-  font-size: 1.1em;
-  -webkit-appearance: none;
-  -moz-appearance: none;
+#button-container {
+  position: relative;
+  left: 10em;
+  top: 20em;
+}
+
+#button {
+  
+}
+
+#popover {
+  position: absolute;
+  background-color: #eee;
   border: 1px #ddd solid;
-  border-radius: 4px;
-  padding: 8px;
+  padding: 1em;
+  border-radius: 6px;
 }
 
-#form-input {
-  width: 14em;
-}
-
-#form-submit {
-  background-color: green;
-  color: #fff;
-  padding-left: 16px;
-  padding-right: 16px;
-}
-
-#form-submit:hover,
-#form-submit:focus {
-    background: #0053ba;
-}
-
-#logos {
-  margin-bottom: 0.5em;
-  display: flex;
-}
-
-.logo-img {
-  display: block;
-  width: 48px;
-  height: 32px;
-  margin-right: 4px;
-  opacity: 0.25;
-}
-
-.logo-active {
-  opacity: 1;
-}
-
-#error-message {
-  color: #c00;
-  margin-top: 0.5em;
+#popover h3 {
+  margin-top: 0;
 }
