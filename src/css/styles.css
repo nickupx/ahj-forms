@@ -1,0 +1,56 @@
+@import "~normalize.css";
+
+body {
+  color: #333;
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  padding: 2rem;
+}
+
+.form-control {
+  font-size: 1.1em;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 1px #ddd solid;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+#form-input {
+  width: 14em;
+}
+
+#form-submit {
+  background-color: green;
+  color: #fff;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+#form-submit:hover,
+#form-submit:focus {
+    background: #0053ba;
+}
+
+#logos {
+  margin-bottom: 0.5em;
+  display: flex;
+}
+
+.logo-img {
+  display: block;
+  width: 48px;
+  height: 32px;
+  margin-right: 4px;
+  opacity: 0.25;
+}
+
+.logo-active {
+  opacity: 1;
+}
+
+#error-message {
+  color: #c00;
+  margin-top: 0.5em;
+}

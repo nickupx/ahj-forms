@@ -1,0 +1,44 @@
+[
+  {
+    "id": "visa",
+    "name": "Visa",
+    "pattern": "^4[0-9]{12}(?:[0-9]{3})?$",
+    "imgUrl": "https://findicons.com/files/icons/2102/credit_card_debit_card/102/visa_curved.png"
+  },
+  {
+    "id": "mc",
+    "name": "Mastercard",
+    "pattern": "^5[1-5][0-9]{14}$",
+    "imgUrl": "https://findicons.com/files/icons/2102/credit_card_debit_card/102/mastercard_curved.png"
+  },
+  {
+    "id": "amex",
+    "name": "American Express",
+    "pattern": "^3[47][0-9]{13}$",
+    "imgUrl": "https://findicons.com/files/icons/2102/credit_card_debit_card/102/american_express_curved.png"
+  },
+  {
+    "id": "discover",
+    "name": "Discover",
+    "pattern": "^65[4-9][0-9]{13}|64[4-9][0-9]{13}|6011[0-9]{12}|(622(?:12[6-9]|1[3-9][0-9]|[2-8][0-9][0-9]|9[01][0-9]|92[0-5])[0-9]{10})$",
+    "imgUrl": "https://findicons.com/files/icons/2102/credit_card_debit_card/101/discover_curved.png"
+  },
+  {
+    "id": "jcb",
+    "name": "JCB",
+    "pattern": "^(?:2131|1800|35\\d{3})\\d{11}$",
+    "imgUrl": "https://findicons.com/files/icons/2814/payment_system_icons/120/jcb.png"
+  },
+  {
+    "id": "diners",
+    "name": "Diner's Club",
+    "pattern": "^3(?:0[0-5]|[68][0-9])[0-9]{11}$",
+    "imgUrl": "https://findicons.com/files/icons/2814/payment_system_icons/120/dinersclub.png"
+  },
+  {
+    "id": "mir",
+    "name": "МИР",
+    "pattern": "^2[0-9]{15}$",
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Mir_Pay_logo.png"
+  }
+]
